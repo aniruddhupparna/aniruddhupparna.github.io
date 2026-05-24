@@ -751,7 +751,6 @@ ul {
   grid-template-columns: 0.9fr 1.1fr;
   gap: clamp(2rem, 5vw, 4rem);
   align-items: center;
-  height: 100vh;
 }
 
 .about-media {
