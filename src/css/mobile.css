@@ -68,6 +68,7 @@
 
   .timeline {
     padding-left: 1.75rem;
+    width: 90vw;
   }
 
   .xp-marker {
@@ -75,6 +76,10 @@
     width: 28px;
     height: 28px;
     font-size: 0.75rem;
+  }
+
+  .skills-panel {
+    width: 90vw;
   }
 
   .skills-cards-grid {
@@ -94,6 +99,10 @@
     scroll-snap-align: center;
   }
 
+  .skills-cards-grid .skill-card__visual {
+    background-position: right 30px center !important;
+  }
+
   .skills-scroll-hint {
     display: block;
   }
@@ -101,6 +110,7 @@
   .about-grid {
     grid-template-columns: 1fr;
     text-align: left;
+    height: auto;
   }
 
   .about-media {
